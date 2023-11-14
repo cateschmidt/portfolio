@@ -34,7 +34,7 @@ if('IntersectionObserver' in window) {
   }
 
   // Portfolio Page DOM
-  const requestURL = 'https://cateschmidt.github.io/wdd230/lesson10/chamber/data.json';
+  const requestURL = 'https://cateschmidt.github.io/portfolio/data.json';
   const list = document.querySelector('#list');
   const table = document.querySelector('.table');
   const grid = document.querySelector('#grid');
