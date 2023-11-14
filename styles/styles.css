@@ -1,0 +1,350 @@
+/* basic css  */
+body, h1, h2, h3, p, ul {
+    margin: 0;
+    padding: 0;
+}
+
+/* Set a background color and font styles */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f0dbdb;
+    color: #333;
+    line-height: 1.6;
+}
+body p {
+    font-family: "roboto", sans-serif;
+}
+body h1, h2, h3, h4 {
+    font-family: "Rock Salt", serif;
+}
+main {
+    max-width: 95%;
+    background-color: white;
+    display: block;
+    margin: auto;
+    box-shadow: 0 0 15px 0 rgba(31, 73, 125, 0.8);
+    
+
+}
+
+/* Navigation bar styles */
+nav {
+    background-color: #333;
+    color: #fff;
+    padding: 1rem 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    font-family: "Roboto", sans-serif;
+    
+}
+.top {
+    background-color: #333;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+
+nav ul {
+    list-style: none;
+    
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: 700;
+    font-size: 20px;
+    align-items: center;
+    
+}
+nav a:hover{
+        color: #FFD3CC;
+        
+   
+}
+.logo {
+    max-width: 130px;
+    padding-bottom: 10px;
+    display: block;
+    padding: 5px;
+    border: none;
+
+    }
+ .logo:hover {
+        border: solid 1px transparent;
+        }
+/* footer styles */
+footer{
+    background-color: #333;
+    color: #fff;
+    
+}
+.main-footer {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    max-height: 120px;
+}
+ footer .lower {
+    text-align: center;
+
+}
+footer hr {
+    width: 90%;
+}
+.quicklinks {
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    max-width: 500px;
+    align-items: center;
+    font-family: "Roboto", sans-serif;
+
+    
+}
+.quicklinks a:hover {
+    text-decoration: none;
+    color:#FFD3CC;
+}
+.quicklinks a {
+    text-decoration: none;
+    color: white;
+}
+
+footer .logo {
+    max-width: 200px;
+}
+
+
+
+/* homepage css */
+
+.cate {
+    max-width: 80%;
+    background-color: #333;
+    filter: drop-shadow(20px 20px 10px gray);
+    width: 19rem;
+    grid-column: 2/3;
+    margin-bottom: 50px;
+    padding: 0;
+    border-radius: 30px;
+   
+}
+.intro {
+    margin: auto;
+    max-width: 70%;
+    
+}
+.intro h2 {
+    font-size: 50px;
+}
+img {
+    filter: blur(0);
+    transition: filter 3s;
+    
+}
+img:hover {
+    border: solid 3px #FFD3CC;
+}
+
+img[data-src] {
+    filter: blur(0.25em);
+  }
+
+.welcome {
+    display: grid;
+    grid-template-columns: 1fr 1fr;    
+}
+
+
+.hi {
+    display: block;
+    text-align: center;
+    padding: 50px 10px 0 0;
+    
+}
+
+.w-button {
+  padding: 20px 40px;
+  font-size: 20px;
+  display: block;   
+  margin: 20px;
+  border-radius: 20px;
+  color: #FFD3CC;
+  background-color: #333;
+  filter: drop-shadow(10px 10px 10px gray);
+}
+
+.w-button:hover{
+    color: #333;
+    background-color: #FFD3CC;
+}
+a {
+    text-decoration: none;
+}
+
+/* Contact Page styling */
+
+.greeting-contact {
+    text-align: center;
+    padding: 20px;
+}
+form fieldset {
+    margin: auto;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 10px 10px;
+    background-color: #FFD3CC;
+    width: 50%;
+    
+  }
+
+form legend {
+  color: #333;
+  margin: 0 1rem;
+  padding: 0 0.5rem;
+  font-size: 1.5rem;
+}
+
+form label.user-info, form label.message, form div  {
+    display: block;
+    padding-top: 1rem;
+    color: #333;
+  }
+  form input.submitButton {
+    display: block;
+    margin: auto;
+    border: none;
+    background-color: #FFD3CC;
+    border: 1px solid #333;
+    color: #333;
+    border-radius: 0.5rem;
+    margin-top: 20px;
+    padding: 0.75rem 1.5rem;
+    width: 60%;
+    max-width: 20rem;
+    font-size: 0.90rem;
+  }
+
+  form label.user-info input:required {
+    border-left: red solid 6px;
+  }
+  form label.user-info input:required:valid {
+    border-left: green solid 6px;
+  }
+  form label.message input:required {
+    border-left: red solid 6px;
+  }
+  form label.message input:required:valid {
+    border-left: green solid 6px;
+  }
+  
+  .ig {
+    max-width: 50px;
+  }
+  .in{
+    max-width: 50px;
+  }
+ .social-links{
+    display: block;
+    text-align: center;
+    padding: 20px;
+ }
+
+.arrows{
+    font-size: 60px;
+    color: #333;
+
+}
+.hope {
+    font-family: 'Rock Salt', serif;
+    text-align: center;
+    padding: 40px;
+}
+
+/* About Me Styling */
+ .about-me {
+    padding: 20px;
+    width: 75%;
+    margin: auto;
+    font-style: italic;
+    /* border-style: dotted dashed solid double;
+    border-radius: 20px;
+    border-color: #333; */
+ }
+.about-me p {
+    padding: 30px;
+}
+.cate2 {
+    border-radius: 30px;
+    float: right;   
+}
+.signature:hover {
+    border: none;
+}   
+.signature {
+    max-width: 40%;
+    padding: none;  
+}
+/* Resume Page Styling */
+.resume {
+    text-align: center;
+    padding: 20px;
+}
+.pdf {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 40px;
+}
+
+/* Portfolio Page Styling */
+.directory #content {
+    margin: auto;
+  }
+  
+  .cards {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
+  }
+  .cards section {
+    border: 2px solid #003056;
+    background-color: lightgray;
+    padding: 25px;
+    text-align: center;
+    height: 350px;
+    width: 250px;
+    margin: 20px;
+  }
+  
+  .directory h2, h1 {
+    color: #003056;
+    text-align: center;
+    font-family:'kavoon';
+  }
+  .directory .cards img {
+    width: 40%;
+    height: auto;
+  }
+  
+  .directory a {
+    text-decoration: none;
+    color: #003056;
+    font-family:"Roboto", sans-serif;
+  }
+  
+  .directory p:first-of-type {
+    font-style: italic;
+    font-size: 0.75em;
+  }
+  .directory p {
+    font-family: "Roboto", sans-serif;
+  }
