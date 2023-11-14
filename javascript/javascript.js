@@ -121,7 +121,7 @@ if('IntersectionObserver' in window) {
       tableRow.appendChild(website);
   
       document.querySelector('table').appendChild(tableRow);
-  }
+  };
 
 
  

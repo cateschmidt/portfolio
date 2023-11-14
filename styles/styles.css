@@ -306,45 +306,88 @@ form label.user-info, form label.message, form div  {
 
 /* Portfolio Page Styling */
 .directory #content {
-    margin: auto;
-  }
-  
-  .cards {
-    display: flex;
-    flex-wrap: wrap;
-    text-align: center;
-    justify-content: center;
-  }
-  .cards section {
-    border: 2px solid #003056;
-    background-color: lightgray;
-    padding: 25px;
-    text-align: center;
-    height: 350px;
-    width: 250px;
-    margin: 20px;
-  }
-  
-  .directory h2, h1 {
-    color: #003056;
-    text-align: center;
-    font-family:'kavoon';
-  }
-  .directory .cards img {
-    width: 40%;
-    height: auto;
-  }
-  
-  .directory a {
-    text-decoration: none;
-    color: #003056;
-    font-family:"Roboto", sans-serif;
-  }
-  
-  .directory p:first-of-type {
-    font-style: italic;
-    font-size: 0.75em;
-  }
-  .directory p {
-    font-family: "Roboto", sans-serif;
-  }
+  margin: auto;
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  justify-content: center;
+}
+.cards section {
+  border: 2px solid #003056;
+  background-color: lightgray;
+  padding: 25px;
+  text-align: center;
+  height: 350px;
+  width: 250px;
+  margin: 20px;
+}
+
+.directory h2, h1 {
+  color: #003056;
+  text-align: center;
+  font-family:'kavoon';
+}
+.directory .cards img {
+  width: 40%;
+  height: auto;
+}
+
+.directory a {
+  text-decoration: none;
+  color: #003056;
+  font-family:'mulish';
+}
+
+.directory p:first-of-type {
+  font-style: italic;
+  font-size: 0.75em;
+}
+.directory p {
+  font-family:'mulish';
+}
+
+.directory .directory-icons{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+}
+
+.directory-icons button {
+  background-color: white;
+  border: 1px solid #003056;   
+
+}
+
+.directory-icons button:hover {
+  background-color: lightgray;
+  cursor: pointer;
+}
+
+.directory-icons img {
+  width: 50px;
+}
+
+.directory table {
+  width: 90%;
+  border-collapse: collapse;
+  margin: auto;
+  overflow: hidden;
+  font-family:'mulish';
+}
+
+.directory td {
+  padding: 10px;
+}
+
+tr:nth-child(odd) {
+  background-color: #e5e5e5;
+}
+
+tr td {
+  display: block;
+}
