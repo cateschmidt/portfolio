@@ -86,7 +86,7 @@ function displayCards(project) {
 
     // Project Languages/Technologies
     let languages = document.createElement('p');
-    languages.textContent = project.lang.lang1 + ' ' + ' ' + project.lang.lang2 + ', ' + project.lang.lang3 + ' ' + project.lang.lang4;
+    languages.textContent = project.lang.lang1 + ' ' + ' ' + project.lang.lang2 + ' ' + project.lang.lang3 + ' ' + project.lang.lang4;
     card.appendChild(languages);
 
     // // Business Phone

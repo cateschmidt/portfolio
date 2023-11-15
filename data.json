@@ -6,95 +6,95 @@
                 "lang1": "HTML | CSS",
                 "lang2": " | JavaScript",
                 "lang3": " | SQL",
-                "lang4": "PHP"
+                "lang4": " | PHP"
             },
             "website": "https://www.broadwaybounddancemelbourne.com/",
-            "logo": "images/directory/broadway.jpg"
+            "logo": "images/php.mp4"
         },
         {
-            "name": "Broadway Bound Dance Centre",
+            "name": "Melbourne Chamber of Commerce",
             "lang": {
-                "lang1": "2955 Bush Drive",
+                "lang1": "HTML | CSS |",
+                "lang2": " JavaScript",
+                "lang3": " ",
+                "lang4": " "
+            },
+            "website": "cateschmidt.github.io/wdd230/lesson11/chamber/index.html",
+            "logo": "images/melbourne.mp4"
+        },
+        {
+            "name": "Receipt Maker (with tests)",
+            "lang": {
+                "lang1": "Python",
+                "lang2": " ",
+                "lang3": " ",
+                "lang4": " "
+            },
+            "website": "https://www.broadwaybounddancemelbourne.com/",
+            "logo": "images/receipt.mp4"
+        },
+        {
+            "name": "Bountiful Foods",
+            "lang": {
+                "lang1": "HTML",
+                "lang2": "| CSS",
+                "lang3": "| JavaScript",
+                "lang4": ""
+            },
+            "website": "cateschmnidt.github.io/wdd230/Final/home.html",
+            "logo": "images/fresh.mp4"
+        },
+        {
+            "name": "Dice Game",
+            "lang": {
+                "lang1": "HTML",
+                "lang2": "| CSS",
+                "lang3": "| JavaScript",
+                "lang4": " "
+            },
+            "website": "cmschmidt21.github.io/cse121b/Project/index.html",
+            "logo": "images/dice.mp4"
+        },
+        {
+            "name": "Tic Tac Toe Game",
+            "lang": {
+                "lang1": "Python",
+                "lang2": " ",
+                "lang3": " ",
+                "lang4": " "
+            },
+            "website": "https://www.broadwaybounddancemelbourne.com/",
+            "logo": "images/tictactoe.mp4"
+        },
+        {
+            "name": "Random Sentence Generator (with tests)",
+            "lang": {
+                "lang1": "Python",
                 "lang2": "Melbourne",
                 "lang3": "FL",
                 "lang4": "32901"
             },
             "website": "https://www.broadwaybounddancemelbourne.com/",
-            "logo": "images/directory/broadway.jpg"
+            "logo": "images/sentences.mp4"
         },
         {
-            "name": "Broadway Bound Dance Centre",
+            "name": "Self Esteem Quiz",
             "lang": {
-                "lang1": "2955 Bush Drive",
-                "lang2": "Melbourne",
-                "lang3": "FL",
-                "lang4": "32901"
+                "lang1": "Python",
+                "lang2": " ",
+                "lang3": " ",
+                "lang4": " "
             },
             "website": "https://www.broadwaybounddancemelbourne.com/",
-            "logo": "images/directory/broadway.jpg"
+            "logo": "images/selfesteem.mp4"
         },
         {
-            "name": "Broadway Bound Dance Centre",
+            "name": "More Projects Coming Soon",
             "lang": {
-                "lang1": "2955 Bush Drive",
-                "lang2": "Melbourne",
-                "lang3": "FL",
-                "lang4": "32901"
-            },
-            "website": "https://www.broadwaybounddancemelbourne.com/",
-            "logo": "images/directory/broadway.jpg"
-        },
-        {
-            "name": "Broadway Bound Dance Centre",
-            "lang": {
-                "lang1": "2955 Bush Drive",
-                "lang2": "Melbourne",
-                "lang3": "FL",
-                "lang4": "32901"
-            },
-            "website": "https://www.broadwaybounddancemelbourne.com/",
-            "logo": "images/directory/broadway.jpg"
-        },
-        {
-            "name": "Broadway Bound Dance Centre",
-            "lang": {
-                "lang1": "2955 Bush Drive",
-                "lang2": "Melbourne",
-                "lang3": "FL",
-                "lang4": "32901"
-            },
-            "website": "https://www.broadwaybounddancemelbourne.com/",
-            "logo": "images/directory/broadway.jpg"
-        },
-        {
-            "name": "Broadway Bound Dance Centre",
-            "lang": {
-                "lang1": "2955 Bush Drive",
-                "lang2": "Melbourne",
-                "lang3": "FL",
-                "lang4": "32901"
-            },
-            "website": "https://www.broadwaybounddancemelbourne.com/",
-            "logo": "images/directory/broadway.jpg"
-        },
-        {
-            "name": "Broadway Bound Dance Centre",
-            "lang": {
-                "lang1": "2955 Bush Drive",
-                "lang2": "Melbourne",
-                "lang3": "FL",
-                "lang4": "32901"
-            },
-            "website": "https://www.broadwaybounddancemelbourne.com/",
-            "logo": "images/directory/broadway.jpg"
-        },
-        {
-            "name": "Broadway Bound Dance Centre",
-            "lang": {
-                "lang1": "2955 Bush Drive",
-                "lang2": "Melbourne",
-                "lang3": "FL",
-                "lang4": "32901"
+                "lang1": "Coming Soon",
+                "lang2": " ",
+                "lang3": " ",
+                "lang4": " "
             },
             "website": "https://www.broadwaybounddancemelbourne.com/",
             "logo": "images/directory/broadway.jpg"
