@@ -1,12 +1,12 @@
 {
     "projects": [
         {
-            "name": "Broadway Bound Dance Centre",
+            "name": "PHP Motors",
             "lang": {
-                "lang1": "2955 Bush Drive",
-                "lang2": "Melbourne",
-                "lang3": "FL",
-                "lang4": "32901"
+                "lang1": "HTML | CSS",
+                "lang2": " | JavaScript",
+                "lang3": " | SQL",
+                "lang4": "PHP"
             },
             "website": "https://www.broadwaybounddancemelbourne.com/",
             "logo": "images/directory/broadway.jpg"
