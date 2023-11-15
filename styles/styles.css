@@ -59,7 +59,7 @@ nav a {
     text-decoration: none;
     color: #fff;
     font-weight: 700;
-    font-size: 20px;
+    font-size: 30px;
     align-items: center;
     
 }
@@ -69,8 +69,7 @@ nav a:hover{
    
 }
 .logo {
-    max-width: 130px;
-    padding-bottom: 10px;
+    max-width: 200px;
     display: block;
     padding: 5px;
     border: none;
@@ -101,7 +100,7 @@ footer hr {
     color: white;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-evenly;
     max-width: 500px;
     align-items: center;
     font-family: "Roboto", sans-serif;
