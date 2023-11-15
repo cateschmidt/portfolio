@@ -79,20 +79,10 @@ function displayCards(project) {
     h2.textContent = project.name;
     card.appendChild(h2);
 
-    // // Business Type
-    // let type = document.createElement('p');
-    // type.textContent = business.type;
-    // card.appendChild(type);
-
     // Project Languages/Technologies
     let languages = document.createElement('p');
     languages.textContent = project.lang.lang1 + ' ' + ' ' + project.lang.lang2 + ' ' + project.lang.lang3 + ' ' + project.lang.lang4;
     card.appendChild(languages);
-
-    // // Business Phone
-    // let phone = document.createElement('p');
-    // phone.textContent = business.phone;
-    // card.appendChild(phone);
 
     // Project Website
     let website = document.createElement('a');

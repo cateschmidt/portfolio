@@ -19,7 +19,7 @@
                 "lang3": " ",
                 "lang4": " "
             },
-            "website": "cateschmidt.github.io/wdd230/lesson11/chamber/index.html",
+            "website": "https://cateschmidt.github.io/wdd230/lesson11/chamber/index.html",
             "logo": "images/melbourne.mp4"
         },
         {
@@ -41,7 +41,7 @@
                 "lang3": "| JavaScript",
                 "lang4": ""
             },
-            "website": "cateschmnidt.github.io/wdd230/Final/home.html",
+            "website": "https://cateschmidt.github.io/wdd230/Final/home.html",
             "logo": "images/fresh.mp4"
         },
         {
@@ -52,7 +52,7 @@
                 "lang3": "| JavaScript",
                 "lang4": " "
             },
-            "website": "cmschmidt21.github.io/cse121b/Project/index.html",
+            "website": "https://cmschmidt21.github.io/cse121b/Project/index.html",
             "logo": "images/dice.mp4"
         },
         {
@@ -70,9 +70,9 @@
             "name": "Random Sentence Generator (with tests)",
             "lang": {
                 "lang1": "Python",
-                "lang2": "Melbourne",
-                "lang3": "FL",
-                "lang4": "32901"
+                "lang2": " ",
+                "lang3": " ",
+                "lang4": " "
             },
             "website": "https://www.broadwaybounddancemelbourne.com/",
             "logo": "images/sentences.mp4"
@@ -96,8 +96,8 @@
                 "lang3": " ",
                 "lang4": " "
             },
-            "website": "https://www.broadwaybounddancemelbourne.com/",
-            "logo": "images/directory/broadway.jpg"
+            "website": "https://www.github.com/cateschmidt",
+            "logo": "images/placeholder.png"
         }
         
     ]
