@@ -327,8 +327,12 @@ form label.user-info, form label.message, form div  {
 }
 
 .directory .cards img {
-  width: 40%;
-  height: auto;
+  height: 150px;
+  width: 250px;
+}
+
+.directory .cards img:hover {
+  transform: scale(2);
 }
 
 .directory a {
