@@ -12,7 +12,7 @@ body {
     line-height: 1.6;
 }
 body p {
-    font-family: "roboto", sans-serif;
+    font-family: "Roboto", sans-serif;
 }
 body h1, h2, h3, h4 {
     font-family: "Rock Salt", serif;
@@ -316,8 +316,8 @@ form label.user-info, form label.message, form div  {
   justify-content: center;
 }
 .cards section {
-  border: 2px solid #003056;
-  background-color: lightgray;
+  border: 2px solid #333;
+  background-color: white;
   padding: 25px;
   text-align: center;
   height: 350px;
@@ -325,11 +325,6 @@ form label.user-info, form label.message, form div  {
   margin: 20px;
 }
 
-.directory h2, h1 {
-  color: #003056;
-  text-align: center;
-  font-family:'kavoon';
-}
 .directory .cards img {
   width: 40%;
   height: auto;
@@ -337,8 +332,9 @@ form label.user-info, form label.message, form div  {
 
 .directory a {
   text-decoration: none;
-  color: #003056;
-  font-family:'mulish';
+  color: #333;
+  font-family: "Roboto", sans-serif;
+
 }
 
 .directory p:first-of-type {
@@ -346,30 +342,7 @@ form label.user-info, form label.message, form div  {
   font-size: 0.75em;
 }
 .directory p {
-  font-family:'mulish';
-}
-
-.directory .directory-icons{
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  margin: 10px;
-}
-
-.directory-icons button {
-  background-color: white;
-  border: 1px solid #003056;   
-
-}
-
-.directory-icons button:hover {
-  background-color: lightgray;
-  cursor: pointer;
-}
-
-.directory-icons img {
-  width: 50px;
+  font-family: "Roboto", sans-serif;
 }
 
 .directory table {
@@ -377,7 +350,7 @@ form label.user-info, form label.message, form div  {
   border-collapse: collapse;
   margin: auto;
   overflow: hidden;
-  font-family:'mulish';
+  font-family: "Roboto", sans-serif;
 }
 
 .directory td {
@@ -390,4 +363,8 @@ tr:nth-child(odd) {
 
 tr td {
   display: block;
+}
+.project-greeting {
+  padding: 20px;
+  text-align: center;
 }
